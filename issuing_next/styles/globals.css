@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  @font-face {
+    font-family: 'rightgrotesk';
+    src: url('/fonts/RightGrotesk-CompactBlack.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'rustica';
+    src: url('/fonts/Rustica-Regular.woff2');
+  }
+  @font-face {
+    font-family: 'rusticabold';
+    src: url('/fonts/Rustica-Bold.woff2');
+  }
+  @font-face {
+    font-family: 'interbold';
+    src: url('/fonts/Inter-Bold.woff2');
+  }
+  @font-face {
+    font-family: 'inter';
+    src: url('/fonts/Inter.woff2');
+  }
+  @font-face {
+    font-family: 'intersemibold';
+    src: url('/fonts/Inter-SemiBold.woff2');
+  }
+}
+
+.dashboard-header {
+    @apply text-[100px] text-[#074746] leading-tight
+  }

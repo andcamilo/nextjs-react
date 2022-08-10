@@ -1,0 +1,33 @@
+{
+  "name": "issuing_next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.58.0",
+    "axios": "^0.25.0",
+    "cookie": "^0.4.1",
+    "formik": "^2.2.9",
+    "google-auth-library": "^8.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "next": "12.1.6",
+    "react": "18.2.0",
+    "react-code-input": "^3.10.1",
+    "react-dom": "18.2.0",
+    "yup": "^0.32.11",
+    "yup-password": "^0.2.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.3"
+  }
+}
